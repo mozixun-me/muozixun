@@ -16,6 +16,7 @@ static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
 
 enum bongo_state {
     bongo_state_none,  /* no hands down */
+    bongo_state_left,  /* left hand down */
     bongo_state_right, /* right hand down */
 } current_bongo_state;
 
